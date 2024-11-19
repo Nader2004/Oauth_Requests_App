@@ -44,8 +44,8 @@ app.use(session({
     }
 }));
 
-const GOOGLE_CLIENT_ID = "960984635124-bg7e84mare2uoutlprr05vfce3ijhe4s.apps.googleusercontent.com";
-const GOOGLE_CLIENT_SECRET = "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";
+const GOOGLE_CLIENT_ID = "";
+const GOOGLE_CLIENT_SECRET = "";
 
 // Initialize Passport and restore authentication state from session
 app.use(passport.initialize());

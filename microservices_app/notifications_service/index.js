@@ -67,8 +67,8 @@ app.post('/notify', authenticateToken, async (req, res) => {
                 return res.status(404).json({ error: 'User not found' });
             }
 
-            const GOOGLE_CLIENT_ID = "960984635124-bg7e84mare2uoutlprr05vfce3ijhe4s.apps.googleusercontent.com";
-            const GOOGLE_CLIENT_SECRET = "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";
+            const GOOGLE_CLIENT_ID = "";
+            const GOOGLE_CLIENT_SECRET = "";
 
             // Set up OAuth2 client with Google's API
             const oAuth2Client = new google.auth.OAuth2(
